@@ -29,6 +29,19 @@ body {
     font-size: 18px;
 }
 
+.logo, .hero-main, button {
+    color: 	#ece0d1;
+}
+
+.hero-secondary, a {
+    color: 	#dbc1ac;
+}
+
+button {
+    background-color: #967259;
+    border: none;
+}
+
 a {
     text-decoration: none;
 }
