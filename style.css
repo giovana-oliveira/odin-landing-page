@@ -1,5 +1,8 @@
 body {
     font-family: Roboto, sans-serif;
+    min-height: 100vh;
+    margin: 0px;
     display: flex;
     flex-direction: column;
 }
+
