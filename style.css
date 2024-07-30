@@ -6,3 +6,30 @@ body {
     flex-direction: column;
 }
 
+.header {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.logo {
+    font-family: "Playwrite AR", cursive;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
