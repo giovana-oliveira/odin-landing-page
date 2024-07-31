@@ -29,15 +29,16 @@ body {
 }
 
 .hero {
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .hero-text, .hero-img {
-    width: 500px;
+    width: 600px;
 }
+
 .hero-main {
     font-size: 48px;
     font-weight: 800;
