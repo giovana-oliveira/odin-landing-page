@@ -29,7 +29,6 @@ body {
 }
 
 .hero {
-    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,12 +41,41 @@ body {
 
 .hero-main {
     font-size: 48px;
-    font-weight: 800;
-    margin: 0px;
 }
 
 .hero-secondary, .hero-main {
     margin-bottom: 16px;
+}
+
+.hero-main, .info-main {
+    margin: 0px;
+    font-weight: 800;
+}
+
+.hero, .info {
+    height: 500px;
+}
+
+.info {
+    background-color: #ece0d1;
+    color: #38220f;
+    text-align: center;
+}
+
+.info-main {
+    font-size: 32px;
+    padding: 48px;
+}
+
+.info-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px
+}
+
+.product {
+    max-width: 200px;
 }
 
 .logo, .hero-main, button {
@@ -57,6 +85,13 @@ body {
 .hero-secondary, a {
     color: 	#dbc1ac;
     font-size: 18px;
+}
+
+.info-products img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 6px solid #967259;
 }
 
 button {
