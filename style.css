@@ -78,6 +78,33 @@ body {
     max-width: 200px;
 }
 
+.quote {
+    height: 350px;
+    background-color: #dbc1ac;
+    color: #38220f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote-source {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: end;
+    margin-top: 8px;
+}
+
+.quote-text, .quote-source {
+    width: 50%;
+}
+
 .logo, .hero-main, button {
     color: 	#ece0d1;
 }
